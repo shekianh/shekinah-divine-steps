@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero pt-20">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-64 h-64 bg-primary rounded-full blur-3xl animate-glow" />
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-accent rounded-full blur-3xl animate-glow" style={{ animationDelay: "1s" }} />

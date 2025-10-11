@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import ProductCard from "./ProductCard";
 import { Button } from "@/components/ui/button";
 import scarpinImage from "@/assets/scarpin-elegante.jpg";
@@ -34,6 +35,8 @@ const products = [
 ];
 
 const Collections = () => {
+  const navigate = useNavigate();
+  
   return (
     <section id="colecoes" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -64,7 +67,7 @@ const Collections = () => {
         </div>
         
         <div className="text-center">
-          <Button variant="hero" size="xl">
+          <Button variant="hero" size="xl" onClick={() => navigate('/colecoes')}>
             Ver Todas as Coleções
           </Button>
         </div>
