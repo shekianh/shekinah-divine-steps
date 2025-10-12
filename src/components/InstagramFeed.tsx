@@ -43,12 +43,12 @@ const instagramPosts = [
 
 const InstagramFeed = () => {
   return (
-    <section id="instagram" className="py-20 bg-background">
+    <section id="instagram" className="py-20 bg-background/50 backdrop-blur-sm relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#f09433] via-[#e6683c] to-[#bc1888] text-white rounded-full text-sm font-medium mb-4">
             <Instagram className="w-4 h-4" />
-            @shekinahcalcados
+            @calcadoshekinah
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Nos Siga no Instagram
@@ -59,7 +59,7 @@ const InstagramFeed = () => {
           <Button
             variant="hero"
             size="lg"
-            onClick={() => window.open('https://instagram.com/shekinahcalcados', '_blank')}
+            onClick={() => window.open('https://instagram.com/calcadoshekinah', '_blank')}
           >
             <Instagram className="mr-2" />
             Seguir no Instagram
@@ -72,7 +72,7 @@ const InstagramFeed = () => {
               key={index}
               className="group relative overflow-hidden border-0 shadow-soft hover:shadow-elegant transition-divine cursor-pointer"
               style={{ animationDelay: `${index * 100}ms` }}
-              onClick={() => window.open('https://instagram.com/shekinahcalcados', '_blank')}
+              onClick={() => window.open('https://instagram.com/calcadoshekinah', '_blank')}
             >
               <div className="relative aspect-square overflow-hidden">
                 <img
@@ -98,7 +98,7 @@ const InstagramFeed = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            💫 Marque @shekinahcalcados nas suas fotos para aparecer aqui!
+            💫 Marque @calcadoshekinah nas suas fotos para aparecer aqui!
           </p>
         </div>
       </div>

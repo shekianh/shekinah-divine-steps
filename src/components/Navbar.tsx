@@ -59,16 +59,16 @@ const Navbar = () => {
               Coleções
             </button>
             <button
+              onClick={() => scrollToSection("galeria")}
+              className="text-foreground hover:text-primary transition-smooth"
+            >
+              Galeria
+            </button>
+            <button
               onClick={() => scrollToSection("onde-comprar")}
               className="text-foreground hover:text-primary transition-smooth"
             >
               Onde Comprar
-            </button>
-            <button
-              onClick={() => scrollToSection("instagram")}
-              className="text-foreground hover:text-primary transition-smooth"
-            >
-              Galeria
             </button>
             <button
               onClick={() => scrollToSection("contato")}
@@ -114,16 +114,16 @@ const Navbar = () => {
                 Coleções
               </button>
               <button
+                onClick={() => scrollToSection("galeria")}
+                className="text-foreground hover:text-primary transition-smooth text-left py-2"
+              >
+                Galeria
+              </button>
+              <button
                 onClick={() => scrollToSection("onde-comprar")}
                 className="text-foreground hover:text-primary transition-smooth text-left py-2"
               >
                 Onde Comprar
-              </button>
-              <button
-                onClick={() => scrollToSection("instagram")}
-                className="text-foreground hover:text-primary transition-smooth text-left py-2"
-              >
-                Galeria
               </button>
               <button
                 onClick={() => scrollToSection("contato")}

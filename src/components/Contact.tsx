@@ -150,12 +150,14 @@ const Contact = () => {
             <Card className="gradient-card border-0 shadow-elegant p-8">
               <h4 className="font-semibold mb-4 text-center">Siga-nos nas Redes Sociais</h4>
               <div className="flex justify-center gap-4">
-                <button 
-                  className="w-12 h-12 rounded-full bg-primary/20 hover:bg-primary/30 flex items-center justify-center transition-smooth"
-                  aria-label="Instagram Shekinah Calçados"
+                <a 
+                  href="https://instagram.com/calcadoshekinah" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-3 bg-gradient-to-r from-[#f09433] via-[#e6683c] to-[#bc1888] hover:opacity-90 transition-smooth rounded-full"
                 >
-                  <Instagram className="w-6 h-6 text-primary" />
-                </button>
+                  <Instagram className="w-5 h-5 text-white" />
+                </a>
                 <button 
                   className="w-12 h-12 rounded-full bg-primary/20 hover:bg-primary/30 flex items-center justify-center transition-smooth"
                   aria-label="Facebook Shekinah Calçados"

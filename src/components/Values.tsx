@@ -31,7 +31,7 @@ const values = [
 
 const Values = () => {
   return (
-    <section id="valores" className="py-20 gradient-hero">
+    <section id="valores" className="py-20 bg-background/50 backdrop-blur-sm relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-4">

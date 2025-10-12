@@ -6,6 +6,7 @@ import Values from "@/components/Values";
 import Collections from "@/components/Collections";
 import Categories from "@/components/Categories";
 import WhereToBuy from "@/components/WhereToBy";
+import AutoGallery from "@/components/AutoGallery";
 import InstagramFeed from "@/components/InstagramFeed";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
@@ -35,6 +36,7 @@ const Index = () => {
       <Collections />
       <Categories />
       <WhereToBuy />
+      <AutoGallery />
       <InstagramFeed />
       <Testimonials />
       <Contact />
